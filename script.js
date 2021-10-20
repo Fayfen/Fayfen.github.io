@@ -1,2 +1,4 @@
-var x = document.getElementById('in').value;
-window.alert("Fuck You" + x);
+function fun() {
+  var x = document.getElementById('in').value;
+  window.alert(x);
+};
