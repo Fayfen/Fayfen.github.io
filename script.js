@@ -11,5 +11,6 @@ function getName() {
     
 function getUser() {      
   var b = localStorage.getItem('uName');
-  document.getElementById('placeholder').innerHTML = "Hello" + b;    
+  console.log("Hello" + b);
+  document.getElementById("placeholder").innerHTML = "Hello" + b;    
 };
